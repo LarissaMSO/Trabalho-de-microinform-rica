@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F8F4E3; 
+    color: #4B3832; 
+    line-height: 1.6;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f8f9f0; 
+    border-radius: 12px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+main h1 {
+    color: #5C3A2D; 
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+main h2 {
+    color: #A0522D; 
+    border-bottom: 2px solid #E0D9C7; 
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+main ul {
+    list-style: none; 
+    padding: 0;
+    border-top: 1px solid #E0D9C7; 
+}
+
+main ul li {
+    display: flex; 
+    justify-content: space-between; 
+    
+    padding: 15px 0;
+    border-bottom: 1px solid #E0D9C7;
+    font-size: 1.1em;
+}
+
+main ul li strong {
+    
+    flex-basis: 35%; 
+    color: #8B4513; 
+}
+
+
+main ul li address,
+main ul li a {
+    flex-basis: 65%; 
+    text-align: right; 
+    color: #4B3832;
+    text-decoration: none;
+    display: block; 
+}
+
+main ul li a:hover {
+    color: #FFD700; 
+    text-decoration: underline;
+}
+
+
+
+main h3 {
+    
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    padding: 0;
+    border-top: 1px solid #E0D9C7;
+}
+
+main h3 li {
+    padding: 15px 0;
+    border-bottom: 1px solid #E0D9C7;
+    font-size: 1.1em;
+}
+
+main li {
+    font-weight: bold;
+    text-align: right; 
+    color: #4B3832;
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+    Text-align: left;
+
+
+}
+
+main h3 ul {
+    padding-left: 30px;
+    Display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 250px;
+
+}
+main h3 ul li {
+    display: flex;
+    flex: 1;
+    Flex-direction : column;
+}
+    main h3 ul li span {
+        Text-wrap : nowrap;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        
+    }
