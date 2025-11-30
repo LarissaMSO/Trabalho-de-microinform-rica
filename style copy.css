@@ -1,0 +1,48 @@
+body {
+  background-color: #a18181;
+  font-family: Comic Sans MS, sans-serif;
+  margin: 30px;
+}
+
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  flex: 1;
+}
+
+.menu a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: #b89171;
+  transition: background-color 0.3s;
+}
+
+
+.menu a:hover {
+  background-color: #CEA27D;
+}
+
+a  {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+nav a:hover {
+  color: #000000;
+}
+
+
+h4 {
+  color: rgba(0, 0, 0, 0.623);
+  text-align: center;
+}
+
